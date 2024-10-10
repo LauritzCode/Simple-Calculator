@@ -80,6 +80,7 @@ button {
     border-radius: 10px;
     box-shadow: 3px 10px 23px 2px rgba(0,0,0,0.44);
     cursor: pointer;
+    color: black;
 }
 
 .operator,
@@ -89,6 +90,7 @@ button {
 {
     background: rgb(244, 194, 194);
     border: 3px solid rgb(156, 116, 116);
+    color: black;
 }
 
 .operator:hover,
