@@ -132,3 +132,21 @@ button {
     text-align: center;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 95vw; /* Make the container almost full width on small screens */
+        height: 80vh; /* Increase height slightly on small screens */
+    }
+
+    .display {
+        width: 90%; /* Adjust display width on small screens */
+        font-size: 1.2em; /* Reduce font size to fit better */
+    }
+
+    button {
+        padding: 20px; /* Reduce button padding for smaller screens */
+        font-size: 1.2em; /* Slightly smaller font size on buttons */
+    }
+}
+
